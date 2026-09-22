@@ -29,7 +29,7 @@ Exemplos de código poderão ser utilizados para facilitar a explicação dos co
 
 Esta atividade terá valor de:
 
-## **3,0 PONTOS**
+## **3,5 PONTOS**
 
 Os pontos serão considerados na **média do 1º bimestre**.
 
@@ -48,7 +48,7 @@ Não será exigido o desenvolvimento de um sistema ou implementação completa d
 O trabalho poderá ser realizado:
 
 - Individualmente; ou
-- Em grupo de até **3 integrantes**.
+- Em grupo de até **6 integrantes**.
 
 Todos os integrantes do grupo deverão participar da elaboração do trabalho.
 
