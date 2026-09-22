@@ -6,7 +6,7 @@
 **Instituição:** Centro Universitário de Ourinhos  
 **Disciplina:** Padrões de Desenvolvimento Web  
 
-**Valor:** 3,0 pontos na média do 1º bimestre  
+**Valor:** 3,5 pontos na média do 1º bimestre  
 **Prazo:** 1 semana
 
 ---
