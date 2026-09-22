@@ -1,34 +1,20 @@
 # Atividade – Testes de Repositórios com Spring Data JPA
 
-Utilizando como base o projeto desenvolvido no **2º Trabalho Parcial**, implemente e teste a camada de persistência da aplicação utilizando **Spring Data JPA**.
+Utilizando como base o projeto desenvolvido no **1º Trabalho Parcial**, implemente e teste a camada de persistência da aplicação utilizando **Spring Data JPA**.
 
 ## 1. Repositórios
 
 Crie um `Repository` para cada entidade do projeto, utilizando as interfaces disponibilizadas pelo Spring Data JPA.
 
 Os repositórios devem permitir, no mínimo, as operações necessárias para:
-
-* inserir registros;
 * consultar um registro pelo ID;
 * listar registros;
-* alterar registros;
-* excluir registros.
 
 ## 2. Classes de teste
 
 Para cada `Repository` criado, desenvolva uma classe de testes utilizando **JUnit**.
 
 Cada classe de teste deverá possuir testes para as seguintes operações:
-
-### Inserção
-
-Crie um teste que:
-
-* crie um novo objeto da entidade;
-* preencha seus atributos;
-* estabeleça os relacionamentos necessários com outras entidades;
-* persista o objeto no banco de dados;
-* utilize `assert` para verificar se a operação foi realizada corretamente.
 
 ### Busca por ID
 
@@ -48,32 +34,9 @@ Crie um teste que:
 * verifique se os registros foram retornados;
 * utilize `assert` para validar a quantidade de registros e/ou seus dados.
 
-### Alteração
-
-Crie um teste que:
-
-* insira um registro;
-* altere pelo menos um de seus atributos;
-* persista a alteração;
-* realize uma nova consulta ao banco;
-* utilize `assert` para comprovar que o valor foi realmente alterado.
-
-> **Importante:** a alteração deve modificar um registro existente e não criar um novo registro.
-
-### Exclusão
-
-Crie um teste que:
-
-* insira um registro;
-* confirme, utilizando um `assert`, que o registro existe;
-* exclua o registro utilizando seu ID;
-* confirme, utilizando um `assert`, que o registro não existe mais.
-
 ## 3. Testes envolvendo relacionamentos
 
 Para as entidades que possuem relacionamento com outras entidades, os testes deverão considerar esses relacionamentos.
-
-Por exemplo, caso `Produto` pertença a uma `Categoria`, o teste de inserção de um produto deverá associá-lo a uma categoria existente.
 
 ## 4. Qualidade dos testes
 
@@ -96,13 +59,10 @@ Para **cada entidade**, deverão existir:
 
 | Operação     | Teste obrigatório |
 | ------------ | ----------------- |
-| Inserção     | 1 teste           |
 | Busca por ID | 1 teste           |
 | Listagem     | 1 teste           |
-| Alteração    | 1 teste           |
-| Exclusão     | 1 teste           |
 
-Portanto, cada entidade deverá possuir **no mínimo 5 testes**.
+Portanto, cada entidade deverá possuir **no mínimo 2 testes**.
 
 ## 6. Entrega
 
