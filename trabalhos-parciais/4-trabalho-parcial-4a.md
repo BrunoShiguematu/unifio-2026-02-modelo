@@ -20,7 +20,6 @@ Cada classe de teste deverá possuir testes para as seguintes operações:
 
 Crie um teste que:
 
-* insira um registro;
 * realize a busca utilizando seu ID;
 * verifique se o registro encontrado corresponde ao registro inserido;
 * valide pelo menos dois atributos do objeto retornado.
@@ -29,7 +28,6 @@ Crie um teste que:
 
 Crie um teste que:
 
-* insira pelo menos dois registros;
 * utilize o método de listagem do Repository;
 * verifique se os registros foram retornados;
 * utilize `assert` para validar a quantidade de registros e/ou seus dados.
