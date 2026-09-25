@@ -16,6 +16,6 @@ public class Local {
 
     private Integer id;
     private String nome;
-    private String descricao;
+    private String endereco;
     private Integer capacidade;
 }
